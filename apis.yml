@@ -1,19 +1,46 @@
 aid: argent
 name: Argent
-description: 'Argent is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Argent (rebranded to Ready, ready.co, in 2025) is a self-custodial smart-contract
+  wallet company focused on Starknet and Ethereum. It builds account-abstraction
+  wallets - the Ready / Argent X browser extension and mobile app, a seedless email
+  and password Web Wallet, and a multisig - plus the open-source developer tooling
+  dapps use to integrate them: the starknetkit connection SDK, session keys
+  (@argent/x-sessions), multicall batching, get-starknet, and the Swift starknet.swift
+  and web3.swift libraries. Argent ships no first-party REST API; integration is via
+  these client SDKs and on-chain smart contracts, with developer documentation hosted
+  at docs.ready.co. Surfaced as an index-ventures portfolio company and enriched here.
 url: https://raw.githubusercontent.com/api-evangelist/argent/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://raw.githubusercontent.com/argentlabs/argent-x/HEAD/assets/readme-header.png
 tags:
 - Company
 - Fintech
+- Wallet
+- Blockchain
+- Starknet
+- Ethereum
+- Web3
+- Account Abstraction
+- SDK
+- Cryptocurrency
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.argent.xyz
+- type: DeveloperPortal
+  url: https://docs.ready.co
+- type: Documentation
+  url: https://docs.ready.co/build-with-ready.md
+- type: APIReference
+  url: https://docs.ready.co/ready-wallets/web-wallet/api-reference.md
+- type: GettingStarted
+  url: https://www.starknetkit.com/docs/latest/getting-started
+- type: GitHubOrganization
+  url: https://github.com/argentlabs
+- type: Blog
+  url: https://www.ready.co/blog
+- type: Packages
+  url: packages/argent-packages.yml
+- type: SDKs
+  url: packages/argent-packages.yml
+- type: LLMsTxt
+  url: llms/argent-llms.txt
+- type: ChangeLog
+  url: changelog/argent-changelog.yml
+- type: DomainSecurity
+  url: security/argent-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
