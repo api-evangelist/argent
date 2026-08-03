@@ -1,0 +1,66 @@
+generated: '2026-07-18'
+method: searched
+source: npm registry + github.com/argentlabs
+notes: >-
+  Argent (rebranded to Ready in 2025) ships open-source Starknet / Ethereum
+  developer SDKs under the argentlabs GitHub org and the @argent npm scope.
+  There is no first-party REST API; integration is via these client libraries.
+packages:
+  - language: typescript
+    registry: npm
+    name: starknetkit
+    url: https://www.npmjs.com/package/starknetkit
+    repo: https://github.com/argentlabs/starknetkit
+    version: 3.4.3
+    install: npm install starknetkit
+    license: MIT
+    official: true
+    description: All-in-one SDK to connect dapps to Starknet wallets (Ready / Argent X, web wallet, etc.).
+  - language: typescript
+    registry: npm
+    name: "@argent/x-sessions"
+    url: https://www.npmjs.com/package/@argent/x-sessions
+    repo: https://github.com/argentlabs/x-sessions
+    version: 8.0.1
+    install: npm install @argent/x-sessions
+    license: MIT
+    official: true
+    description: Create and manage session keys for Argent X / Ready smart accounts.
+  - language: typescript
+    registry: npm
+    name: "@argent/x-multicall"
+    url: https://www.npmjs.com/package/@argent/x-multicall
+    repo: https://github.com/argentlabs/x-multicall
+    version: 7.1.0
+    install: npm install @argent/x-multicall
+    license: MIT
+    official: true
+    description: Batch request functionality for Starknet RPC providers (RpcBatchProvider / ContractBatchProvider).
+  - language: typescript
+    registry: npm
+    name: "@argent/get-starknet"
+    url: https://www.npmjs.com/package/@argent/get-starknet
+    repo: https://github.com/argentlabs/argent-x
+    version: 6.4.7
+    install: npm install @argent/get-starknet
+    license: MIT
+    official: true
+    description: get-starknet wallet-connection helper published from the Argent X monorepo.
+  - language: swift
+    registry: swift-package-manager
+    name: starknet.swift
+    url: https://github.com/argentlabs/starknet.swift
+    repo: https://github.com/argentlabs/starknet.swift
+    install: ".package(url: \"https://github.com/argentlabs/starknet.swift\", from: \"0.0.0\")"
+    license: MIT
+    official: true
+    description: Starknet SDK for Swift and Objective-C.
+  - language: swift
+    registry: swift-package-manager
+    name: web3.swift
+    url: https://github.com/argentlabs/web3.swift
+    repo: https://github.com/argentlabs/web3.swift
+    install: ".package(url: \"https://github.com/argentlabs/web3.swift\", from: \"0.0.0\")"
+    license: MIT
+    official: true
+    description: Ethereum Swift API with support for smart contracts, ENS & ERC20.
