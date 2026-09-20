@@ -43,6 +43,9 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://raw.githubusercontent.com/argentlabs/argent-x/HEAD/assets/readme-header.png
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-19
 tags:
 - Company
 - Fintech
